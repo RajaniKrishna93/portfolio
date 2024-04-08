@@ -5,7 +5,7 @@ height: 100%;
 .timeline{
 display: flex;
 width: 100%;
-padding: 20px;
+padding: 5px;
 
 
 &__experience, &__education{
@@ -52,7 +52,7 @@ align-items: center;
       
 
        &__vertical-timeline-element{
-        padding: 0px 0px 30px 0px;
+        padding: 0px 0px 0px 0px;
                &:last-child{
                padding-bottom:0px;
                }
@@ -73,10 +73,10 @@ align-items: center;
 
        }
        .vertical-timeline-element-title-wrapper-description{
-        font-size: 18px;
+        font-size: 11px;
        }
        .vertical-timeline-element-title-wrapper-date{
-        font-size: 16px;
+        font-size: 11px;
        }
        .vertical-timeline-element-content{
         box-shadow: none;

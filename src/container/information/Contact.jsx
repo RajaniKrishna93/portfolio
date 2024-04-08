@@ -43,7 +43,7 @@ export default function Contact() {
                     <div className="data-wrapper__mail">
                       <FaMailBulk
                         className="seven"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.email}</p>
@@ -51,7 +51,7 @@ export default function Contact() {
                     <div className="data-wrapper__number">
                       <FaMobile
                         className="one"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.phno}</p>
@@ -59,7 +59,7 @@ export default function Contact() {
                     <div className="data-wrapper__card">
                       <FaAddressCard
                         className="two"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.address}</p>
@@ -67,7 +67,7 @@ export default function Contact() {
                     <div className="data-wrapper__date">
                       <FaCalendar
                         className="three"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.dob}</p>
@@ -75,7 +75,7 @@ export default function Contact() {
                     <div className="data-wrapper__flag">
                       <FaFlag
                         className="four"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.nationality}</p>
@@ -83,7 +83,7 @@ export default function Contact() {
                     <div className="data-wrapper__gender-content">
                       <FaFemale
                         className="five"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <p>{detailItem.gender}</p>
@@ -91,7 +91,7 @@ export default function Contact() {
                     <div className="data-wrapper__profile">
                       <FaLinkedin
                         className="six"
-                        size={60}
+                        size={40}
                         color="var(--yellow-theme-main-color)"
                       />
                       <a
