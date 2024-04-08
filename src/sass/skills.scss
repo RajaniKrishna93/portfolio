@@ -1,8 +1,9 @@
 .skills{
     &__content-wrapper{
-        display:flex;
+        display: flex;
         padding: 20px;
-        gap: 20px;
+        gap: -55px;
+        margin-right: 159px;
 
          
           &__inner-content{
@@ -43,7 +44,7 @@
         right:0;
        }
        &__progressbar__container{
-        width:290%;
+        width:235%;
        
        }
        .progressbar-wrapper{
