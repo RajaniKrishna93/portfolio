@@ -23,7 +23,7 @@ export default function Portfolio() {
             transform: "translateX(-100px)",
           }}
           end={{
-            transform: "translateX(400px)",
+            transform: "translateX(600px)",
           }}
         >
           <div className="heading__text">
