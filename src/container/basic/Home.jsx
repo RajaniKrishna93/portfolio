@@ -6,9 +6,9 @@ export default function Home() {
   const navigate = useNavigate();
   console.log(navigate);
 
-  const handleNavigateToContactMePage = () => {
-    navigate("/contact");
-  };
+  // const handleNavigateToContactMePage = () => {
+  //   navigate("/contact");
+  // };
 
   return (
     <section id="home" className="home">
@@ -19,7 +19,7 @@ export default function Home() {
           Front End Developer
         </h1>
       </div>
-      <Animate
+      {/* <Animate
         play
         duration={1.5}
         delay={1}
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="home__contact-me">
           <button onClick={handleNavigateToContactMePage}>Hire Me</button>
         </div>
-      </Animate>
+      </Animate> */}
     </section>
   );
 }
